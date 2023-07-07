@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.campButton{
+    width: 600px;
+    padding: 5px 10px;
+    display: flex;    
+}
+.campButton button{
+    height: 40px;
+    width: 40px;
+    background-color: #402039;
+    color: #9B287B;
+    font-weight: bold;
+    font-size: 26px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.campButton button:hover{
+    font-size: 20px;
+}
+
+@media screen and (max-width:650px) {
+    .campButton{
+        width: 200px;
+        justify-content: center;
+    }
+}

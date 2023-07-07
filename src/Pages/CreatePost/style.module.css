@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+.container input, button{
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    color: #E2FCEF;
+    padding: 0 10px;
+    border: 1px solid #402039;
+}
+.container input{
+    background-color: black;
+}
+.container button{
+    background-color: #402039;
+    width: 620px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container button:hover{
+    background-color: #9B287B;
+}

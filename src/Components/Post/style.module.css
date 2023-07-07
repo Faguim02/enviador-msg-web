@@ -1,0 +1,23 @@
+.container{
+    background-color: #402039;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    gap: 5px;
+    border-radius: 8px;
+    width: 600px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: #E2FCEF;
+}
+.header span{
+    color: #9B287B;
+}
+
+@media screen and (max-width:650px){
+    .container{
+        width: 250px;
+    }
+}
